@@ -1,0 +1,12 @@
+C:\Users\tamctran\source\repos\Assigmment\Assigmment\Shared\bin\Debug\net6.0\Assigmment.Shared.deps.json
+C:\Users\tamctran\source\repos\Assigmment\Assigmment\Shared\bin\Debug\net6.0\Assigmment.Shared.dll
+C:\Users\tamctran\source\repos\Assigmment\Assigmment\Shared\bin\Debug\net6.0\Assigmment.Shared.pdb
+C:\Users\tamctran\source\repos\Assigmment\Assigmment\Shared\obj\Debug\net6.0\Assigmment.Shared.csproj.AssemblyReference.cache
+C:\Users\tamctran\source\repos\Assigmment\Assigmment\Shared\obj\Debug\net6.0\Assigmment.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tamctran\source\repos\Assigmment\Assigmment\Shared\obj\Debug\net6.0\Assigmment.Shared.AssemblyInfoInputs.cache
+C:\Users\tamctran\source\repos\Assigmment\Assigmment\Shared\obj\Debug\net6.0\Assigmment.Shared.AssemblyInfo.cs
+C:\Users\tamctran\source\repos\Assigmment\Assigmment\Shared\obj\Debug\net6.0\Assigmment.Shared.csproj.CoreCompileInputs.cache
+C:\Users\tamctran\source\repos\Assigmment\Assigmment\Shared\obj\Debug\net6.0\Assigmment.Shared.dll
+C:\Users\tamctran\source\repos\Assigmment\Assigmment\Shared\obj\Debug\net6.0\refint\Assigmment.Shared.dll
+C:\Users\tamctran\source\repos\Assigmment\Assigmment\Shared\obj\Debug\net6.0\Assigmment.Shared.pdb
+C:\Users\tamctran\source\repos\Assigmment\Assigmment\Shared\obj\Debug\net6.0\ref\Assigmment.Shared.dll

@@ -1,0 +1,52 @@
+﻿@page "/tickets"
+@attribute [Authorize]
+@inject ITicketService TicketService
+
+
+<PageTitle>Tickets</PageTitle>
+
+<h3>Tickets</h3>
+
+<div class="mb-3">
+    <input type="text" class="form-control" id="searchTicket" placeholder="Search by Id, Title" value="@TicketService.filter" @onchange="SearchChanged">
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ticket Id</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Create Date</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ticket in TicketService.DisplayTickets)
+        {
+            <tr>
+                <td>@ticket.Id</td>
+                <td>@ticket.Title</td>
+                <td>@ticket.Description</td>
+                <td>@ticket.Created.ToShortDateString()</td>
+                <td>@ticket.Status</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        if (TicketService.Tickets.Count == 0)
+        {
+            await TicketService.GetTickets();
+        }
+    }
+
+    private void SearchChanged(ChangeEventArgs args)
+    {
+        var search = args.Value.ToString();
+        TicketService.SetFilter(search);
+    }
+}

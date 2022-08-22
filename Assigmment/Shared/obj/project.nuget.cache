@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JbIpxlzXr7FlUUiH+XW5wNLUHvjLxdsqQu48HpWsfNbPU6OUeVD1jLjdlk1CfthEHBaNHfvs5V64xmhJJm7uUA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tamctran\\source\\repos\\Assigmment\\Assigmment\\Shared\\Assigmment.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tamctran\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
